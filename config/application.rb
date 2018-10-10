@@ -31,8 +31,6 @@ module OnlineBookStore
     config.generators.system_tests = nil
 
     config.generators do |g|
-      g.orm             :active_record
-      g.template_engine :erb
       g.test_framework  :rspec, fixture: false
       g.stylesheets     false
       g.javascripts     false
